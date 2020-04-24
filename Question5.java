@@ -6,12 +6,12 @@ public class Question5
   public static void main(String[] args)
   {
     Scanner in = new Scanner(System.in);
-    System.out.print("Please enter an integar: ");
+    //System.out.print("Please enter an integar: ");
     int num = in.nextInt();
     int no; 
     int[] noArray = new int[num];
     for (int i = 0; i < num; i++){
-      System.out.print("Please enter an integar: ");
+      //System.out.print("Please enter an integar: ");
       no = in.nextInt();
       noArray[i] = no;
     }
@@ -37,6 +37,6 @@ public class Question5
       maxCount = count; 
       freqNo = noArray[f - 1]; 
     } 
-  System.out.println("The most frequent number is: " + freqNo);
+  System.out.print(freqNo);
   }
 }
