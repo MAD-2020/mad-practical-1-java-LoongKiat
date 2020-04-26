@@ -32,11 +32,6 @@ public class Question5
         count = 0;
       }
     }
-    if (count > maxCount) 
-    { 
-      maxCount = count; 
-      freqNo = noArray[f - 1]; 
-    } 
   System.out.print(freqNo);
   }
 }
